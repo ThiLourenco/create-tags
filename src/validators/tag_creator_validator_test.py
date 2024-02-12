@@ -6,12 +6,12 @@ class MockResquet:
 		self.json = json
 
 	def test_tag_create_validator():
-		req = MockResquet(json={"product_code": "12345" })
+		req = MockResquet(json={"product_code": "12345"})
 		tag_creator_validator(req)
 
 	def test_tag_create_validator_with_error():
 		req = MockResquet(json={ "product_code": 12345 })
-				
+        
 		try:
 			tag_creator_validator(req)
 		except Exception as exception:
