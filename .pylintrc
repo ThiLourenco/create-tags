@@ -7,6 +7,8 @@ disable=
       W0703, # Catching too general exception Exception
       R0903, # too-few-public-methods
       W0719, # broad-exception-raised
+      E0211, # no-method-argument
+      C0303, #trailing-whitespace
       
 
 
