@@ -1,5 +1,5 @@
 # NLW Experts - Python
-Create tags barcode
+Creating barcode labels
 
 ## Dependencies
 
